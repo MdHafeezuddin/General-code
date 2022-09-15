@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 @Component("u")
 public class User {
+	//this is model class or pojo class
 
 	public int getCarnumber() {
 		return Carnumber;
